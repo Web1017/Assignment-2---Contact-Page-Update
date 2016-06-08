@@ -3,8 +3,8 @@
  * @Author Javid Niftaliyev
  * Student ID: 300742916
  * @description: This is the main javascript file for the current web site.
- * Website(Azure): http://assign1-my-mini-portfolio-site.azurewebsites.net/
- * Website(Github): https://github.com/Web1017/Assignment-1---Mini-Portfolio-Site
+ * Website(Azure): http://assignment2-contact-page-update.azurewebsites.net/
+ * Website(Github): https://github.com/Web1017/Assignment-2---Contact-Page-Update
  * 
  */
 //IIFE - Immediately invoked Expression 
@@ -65,23 +65,19 @@
 
 function showFormInput(){
      console.log("**********************************");
-     console.log("First Name" + firstName.value);
+     console.log("First Name: " + firstName.value);
      console.log("===============================");
-     console.log("Last Name" + lastName.value);
+     console.log("Last Name: " + lastName.value);
      console.log("===============================");
-     console.log("Email" + email.value);
+     console.log("Email: " + email.value);
      console.log("===============================");
-     console.log("Contact Number" + contactNumber.value);
+     console.log("Contact Number: " + contactNumber.value);
      console.log("===============================");
-     console.log("Message" + message.value);
+     console.log("Message: " + message.value);
      console.log("**********************************");
 
      
 }
-
-
-    
-
 
     //Page Data
     paragraphs[0] = "Life is a series of experiences, each one of which makes us bigger, even though sometimes it is hard to realize this. For the world was built to develop character, and we must learn that the setbacks and grieves which we endure help us in our marching onward. - Henry Ford";
@@ -106,7 +102,5 @@ function showFormInput(){
             paragraphElements[index].innerHTML = paragraphs[index];
         }
     }
-
-
 
 })();
