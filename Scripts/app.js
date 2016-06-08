@@ -38,7 +38,10 @@
     //Create a reference to the firstName field
     var firstName = document.getElementById("firstName");
     var lastName = document.getElementById("lastName");
-
+    var email = document.getElementById("email");
+    var contactNumber = document.getElementById("contactNumber");
+    var message = document.getElementById("message");
+    
 
     // create a reference to the form
     var contactForm = document.getElementById("contactForm");
@@ -61,10 +64,18 @@
  */
 
 function showFormInput(){
-
+     console.log("**********************************");
      console.log("First Name" + firstName.value);
-     console.log("------------------------------");
+     console.log("===============================");
      console.log("Last Name" + lastName.value);
+     console.log("===============================");
+     console.log("Email" + email.value);
+     console.log("===============================");
+     console.log("Contact Number" + contactNumber.value);
+     console.log("===============================");
+     console.log("Message" + message.value);
+     console.log("**********************************");
+
      
 }
 
